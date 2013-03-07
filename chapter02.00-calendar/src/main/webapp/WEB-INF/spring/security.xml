@@ -9,7 +9,13 @@
   http://www.springframework.org/schema/security/spring-security-3.1.xsd"> 
   <http auto-config="true"> 
     <intercept-url pattern="/**" access="ROLE_USER"/> 
-  </http> 
+    <form-login login-page="/login/form"
+      login-processing-url="/login"
+      username-parameter="username"
+      password-parameter="password"
+      authentication-failure-url="/login/form?error"/>
+  </http>
+  
   <authentication-manager> 
     <authentication-provider> 
       <user-service> 
@@ -19,4 +25,5 @@
       </user-service> 
     </authentication-provider> 
   </authentication-manager>
+  
 </bean:beans>
