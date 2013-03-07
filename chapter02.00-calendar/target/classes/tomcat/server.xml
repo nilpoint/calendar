@@ -36,9 +36,9 @@
             scheme="https"
             secure="true"
             sslProtocol="TLS"
-            keystoreFile="E:\\projects\\my_java\\sts-3.1\\chapter02.00-calendar/src/etc/keys/tomcat.keystore"
+            keystoreFile="E:\\repositories_git\\calendar\\chapter02.00-calendar/src/etc/keys/tomcat.keystore"
             keystorePass="changeit"
-            truststoreFile="E:\\projects\\my_java\\sts-3.1\\chapter02.00-calendar/src/etc/keys/tomcat.truststore"
+            truststoreFile="E:\\repositories_git\\calendar\\chapter02.00-calendar/src/etc/keys/tomcat.truststore"
             trustStorePass="changeit"
             clientAuth="true"/>
 
